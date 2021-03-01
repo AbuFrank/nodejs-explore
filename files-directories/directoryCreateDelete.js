@@ -2,7 +2,7 @@ import fs from "fs";
 
 // directories
 // creates and deletes an assets folder
-// only runs if the folder doesn't exist
+// only creates it if the folder doesn't already exist
 if (!fs.existsSync("./assets")) {
   fs.mkdir("./assets", err => {
     if (err) {
