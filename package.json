@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-explore",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "### check versions",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon serverExpress.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "github:expressjs/express",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
